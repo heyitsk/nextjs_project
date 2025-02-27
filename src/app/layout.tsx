@@ -2,8 +2,7 @@
 
 import "@mantine/core/styles.css";
 import { MantineProvider, createTheme } from "@mantine/core";
-import { HeaderMenu } from "./DoubleHeader";
-import { CardsCarousel } from "./CardCarousel";
+import { HeaderMenu } from "../components/ui/DoubleHeader";
 import "./globals.css"; // Import global styles
 
 const theme = createTheme({

@@ -1,7 +1,7 @@
 import { IconChevronDown } from "@tabler/icons-react";
 import { Burger, Center, Container, Group, Menu } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
-import classes from "./DoubleHeader.module.css";
+import classes from "./DoubleHeader.module.scss";
 import { useMantineTheme } from "@mantine/core";
 
 const links = [
